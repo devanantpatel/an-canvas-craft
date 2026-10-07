@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>An Canvas Craft</title>
+  <style>
+    body {
+      background: #080811;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      padding: 40px 20px;
+      text-align: center;
+      margin: 0;
+    }
+    h1 { color: #ff3366; margin-bottom: 8px; }
+    p { color: #8888aa; margin-bottom: 40px; }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #131322;
+      border: 1px solid #282845;
+      border-radius: 12px;
+      padding: 24px;
+      width: 260px;
+      text-decoration: none;
+      color: white;
+      transition: all 0.25s ease;
+      display: block;
+      text-align: left;
+    }
+    .card:hover {
+      border-color: #ff3366;
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(255, 51, 102, 0.25);
+    }
+    .tag {
+      font-size: 0.75rem;
+      color: #ff3366;
+      background: rgba(255, 51, 102, 0.1);
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+    .card h3 { margin: 14px 0 8px 0; font-size: 1.15rem; }
+    .card p { font-size: 0.85rem; color: #999; margin: 0; }
+  </style>
+</head>
+<body>
+  <h1>🎨 An Canvas Craft</h1>
+  <p>Interactive Visuals & Generative Canvas Experiments</p>
+
+  <div class="grid">
+    <!-- Project 01 -->
+    <a class="card" href="projects/01-flow-heart/">
+      <span class="tag">Interactive 2D</span>
+      <h3>❤️ Flow Field Heart</h3>
+      <p>Edge spawning strings, drag tail follow, and compact 2D heart formation.</p>
+    </a>
+  </div>
+</body>
+</html>
